@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css">
+    <style>
+        .gallery {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .gallery-item {
+            margin: 10px;
+            text-align: center;
+        }
+
+        .gallery-item img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+
+        .caption {
+            margin-top: 10px;
+        }
+
+        .caption p {
+            margin: 0;
+        }
+
+        .gallery-item:hover .caption {
+            opacity: 1;
+        }
+        h1 {
+            text-align: center;
+        }
+    </style>
+    <title>Gallery</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contacts.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <h1>Gallery</h1>
+
+    <div class="gallery">
+        <div class="gallery-item">
+            <img src="Charles.jpg" alt="Charles">
+            <div class="caption">
+                <p>This is my friend Charles that <br>
+                    always stood by me incase of any things </p>
+
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="desi.jpg" alt="Desi">
+            <div class="caption">
+                <p>This is i the web designer <br>
+                i felt in love with web design <br>
+            and make sure i keeps on <br>
+            progressing</p>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="frns.jpg" alt="Friends">
+            <div class="caption">
+                <p>This my friend also malech <br>
+                feadinance kimani</p>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="frn.jpg" alt="Friend">
+            <div class="caption">
+                <p>This i and my Friends</p>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="hong.jpg" alt="Hong">
+            <div class="caption">
+                <p>My big brother</p>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="desing.jpg" alt="Design">
+            <div class="caption">
+                <p>I at the Hostel when i just <br>
+                join Bugema</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

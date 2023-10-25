@@ -1,0 +1,56 @@
+/* CSS for navigation menu */
+nav {
+    background-image: url();
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex; /* Make the list items display horizontally */
+    justify-content: center; /* Align the list items at the center */
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px; /* Adjust padding as per your requirement */
+    border: 1px solid transparent; /* Add a transparent border */
+    border-radius: 5px; /* Add border-radius for a rounded look */
+    transition: all 0.3s ease; /* Add transition for smooth effect */
+}
+
+nav ul li a:hover {
+    background-color: #333; /* Change the background color on hover */
+    color: #f2f2f2; /* Change the text color on hover */
+}
+
+/* Additional CSS for the overview section */
+.overview {
+    width: 70%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.overview h2 {
+    font-size: 28px;
+    color: #333;
+}
+
+.overview p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1); /* Add transparent border */
+    border-radius: 5px; /* Add border-radius for a rounded look */
+    transition: all 0.3s ease; /* Add transition for smooth effect */
+}
+
+.overview p:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* Change background color on hover */
+}
